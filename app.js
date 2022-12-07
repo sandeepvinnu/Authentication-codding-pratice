@@ -2,6 +2,7 @@ const express = require("express");
 const path = require("path");
 const { open } = require("sqlite");
 const sqlite3 = require("sqlite3");
+const bcrypt = require("bcrypt");
 
 const databasePath = path.join(__dirname, "userData.db");
 
